@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: ValidationService
+
+server:
+      port: 3006
+

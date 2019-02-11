@@ -1,0 +1,11 @@
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:3003/eureka
+opentracing:
+  jaeger:
+    udp-sender:
+      host: localhost
+      port: 6831

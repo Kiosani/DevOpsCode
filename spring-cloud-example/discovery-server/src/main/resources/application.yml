@@ -1,0 +1,17 @@
+server:
+  port: 3003
+
+eureka:
+  instance:
+    hostname: localhost
+  server:
+    eviction-interval-timer-in-ms: 10000
+    enable-self-preservation: false
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+#    serviceUrl:
+#      defaultZone: http://discovery:${server.port}/eureka/
+#  server:
+#    enable-self-preservation: true
+
