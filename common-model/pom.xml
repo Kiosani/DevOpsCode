@@ -6,6 +6,8 @@
 
     <properties>
         <org.hibernate.version>5.2.11.Final</org.hibernate.version>
+        <maven.compiler.target>1.11</maven.compiler.target>
+        <maven.compiler.source>1.11</maven.compiler.source>
     </properties>
     <groupId>com.kravchenko</groupId>
     <artifactId>common-model</artifactId>
